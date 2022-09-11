@@ -1,0 +1,38 @@
+.filtr {
+  display: flex;
+  justify-content: center;
+
+  list-style: none;
+  margin-bottom: 50px;
+  gap: 8px;
+}
+
+.filtr .filtr-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  background-color: #f5f4fa;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: 0;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus,
+  &:hover {
+    color: var(--white-color);
+    background-color: var(--acent-color);
+  }
+}
+
+.filtr .filtr-btn.curent {
+  background-color: var(--acent-color);
+  color: var(--white-color);
+}
