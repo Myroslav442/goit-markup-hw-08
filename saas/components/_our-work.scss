@@ -1,3 +1,9 @@
+.section-no-pading {
+  @media screen and (max-width: 1199px) {
+      display: none;
+    }
+}
+
 
 .job-list {
   list-style: none;
