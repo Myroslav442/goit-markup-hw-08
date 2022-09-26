@@ -30,12 +30,12 @@
         <nav class="nav-container">
           <ul class="site-nav list">
             <li class="item">
-              <a href="./index.html" class="link curent">Студия</a>
+              <a href="./index.html" class="link curent">Студія</a>
             </li>
             <li class="item">
-              <a href="./portfolio.html" class="link">Портфолио</a>
+              <a href="./portfolio.html" class="link">Портфоліо</a>
             </li>
-            <li class="item"><a href="" class="link">Контакты</a></li>
+            <li class="item"><a href="" class="link">Контакти</a></li>
           </ul>
         </nav>
         <ul class="container-nav">
@@ -79,10 +79,9 @@
                 </use>
                </svg>
               </div>
-              <h3 class="feature-list__title">Внимание к деталям</h3>
+              <h3 class="feature-list__title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="feature-list__text">
-                Идейные соображения, а также начало повседневной работы по
-                формированию позиции.
+                Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
             <li class="feature-list__item">
@@ -92,10 +91,9 @@
                 </use>
                </svg>
               </div>
-              <h3 class="feature-list__title">Пунктуальность</h3>
+              <h3 class="feature-list__title">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="feature-list__text">
-                Задача организации, в особенности же рамки и место обучения
-                кадров влечет за собой.
+              Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
             <li class="feature-list__item">
@@ -105,10 +103,9 @@
                 </use>
                </svg>
               </div>
-              <h3 class="feature-list__title">Планирование</h3>
+              <h3 class="feature-list__title">ПЛАНУВАННЯ</h3>
               <p class="feature-list__text">
-                Равным образом консультация с широким активом в значительной
-                степени обуславливает.
+               Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li class="feature-list__item">
@@ -118,10 +115,9 @@
                 </use>
                </svg>
               </div>
-              <h3 class="feature-list__title">Современные технологии</h3>
+              <h3 class="feature-list__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="feature-list__text">
-                Значимость этих проблем настолько очевидна, что реализация
-                плановых заданий.
+               Значимість цих проблем настільки очевидна, що реалізація планових завдань.
               </p>
             </li>
           </ul>
@@ -130,7 +126,7 @@
       <!-- Чим ми займаємось -->
       <section class="section section-no-pading">
         <div class="container">
-          <h2 class="section-title">Чем мы занимаемся</h2>
+          <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="job-list">
             <li class="job-list__items">
               <img
@@ -174,14 +170,35 @@
           <h2 class="section-title">Наша команда</h2>
           <ul class="team-list">
             <li class="team-list__items">
-              <img
-                src="./image/team/img-1.jpg"
+              <picture>
+               <source srcset="
+               ./image/team/img-1.jpg 1x,
+               ./image/team/img-1-2x.jpg 2x
+               "
+               media="(min-width:1200px)"
+               />
+                  <source srcset="
+               ./image/team/img-1-tab.jpg 1x,
+               ./image/team/img-1-tab-2x.jpg 2x
+               "
+               media="(min-width:768px)"
+               />
+                  <source srcset="
+               ./image/team/img-1-mob.jpg 1x,
+               ./image/team/img-1-mob-2x.jpg 2x
+               "
+               media="(max-width:767px)"
+               />
+               <img
+                src="./image/team/img-1-mob.jpg"
                 alt="Фото продакт-дизайнера"
-                width="270"
-                height="260"
+                width="450"
+                height="460"
               />
+              </picture>
+              
               <div class="team-list__content">
-                <h3 class="team-list__title">Игорь Демьяненко</h3>
+                <h3 class="team-list__title">Ігор Дем'яненко</h3>
                 <p class="team-list__job">Product Designer</p>
                 <ul class="social-list">
                   <li class="social-list__item">
@@ -221,14 +238,35 @@
               </div>
             </li>
             <li class="team-list__items">
-              <img
-                src="./image/team/img-2.jpg"
+               <picture>
+               <source srcset="
+               ./image/team/img-2.jpg 1x,
+               ./image/team/img-2-2x.jpg 2x
+               "
+               media="(min-width:1200px)"
+               />
+                  <source srcset="
+               ./image/team/img-2-tab.jpg 1x,
+               ./image/team/img-2-tab-2x.jpg 2x
+               "
+               media="(min-width:768px)"
+               />
+                  <source srcset="
+               ./image/team/img-2-mob.jpg 1x,
+               ./image/team/img-2-mob-2x.jpg 2x
+               "
+               media="(max-width:767px)"
+  />
+                <img
+                src=" ./image/team/img-2-mob.jpg "
                 alt="Фото разработчика"
-                width="270"
-                height="260"
+                width="450"
+                height="460"
               />
+             </picture>
+             
               <div class="team-list__content">
-                <h3 class="team-list__title">Ольга Репина</h3>
+                <h3 class="team-list__title">Ольга Репіна</h3>
                 <p class="team-list__job">Frontend Developer</p>
                 <ul class="social-list">
                   <li class="social-list__item">
@@ -268,14 +306,34 @@
               </div>
             </li>
             <li class="team-list__items">
+               <picture>
+               <source srcset="
+               ./image/team/img-3.jpg 1x,
+               ./image/team/img-3-2x.jpg 2x
+               "
+               media="(min-width:1200px)"
+               />
+                  <source srcset="
+               ./image/team/img-3-tab.jpg 1x,
+               ./image/team/img-3-tab-2x.jpg 2x
+               "
+               media="(min-width:768px)"
+               />
+                  <source srcset="
+               ./image/team/img-3-mob.jpg 1x,
+               ./image/team/img-3-mob-2x.jpg 2x
+               "
+               media="(max-width:767px)"
+  />
               <img
-                src="./image/team/img-3.jpg"
+                src=" ./image/team/img-3-mob.jpg"
                 alt="Фото маркетолога"
-                width="270"
-                height="260"
+                width="450"
+                height="460"
               />
+              </picture>
               <div class="team-list__content">
-                <h3 class="team-list__title">Николай Тарасов</h3>
+                <h3 class="team-list__title">Микола Тарасов</h3>
                 <p class="team-list__job">Marketing</p>
                 <ul class="social-list">
                   <li class="social-list__item">
@@ -315,14 +373,34 @@
               </div>
             </li>
             <li class="team-list__items">
+               <picture>
+               <source srcset="
+               ./image/team/img-4.jpg 1x,
+               ./image/team/img-4-2x.jpg 2x
+               "
+               media="(min-width:1200px)"
+               />
+                  <source srcset="
+               ./image/team/img-4-tab.jpg 1x,
+               ./image/team/img-4-tab-2x.jpg 2x
+               "
+               media="(min-width:768px)"
+               />
+                  <source srcset="
+               ./image/team/img-4-mob.jpg 1x,
+               ./image/team/img-4-mob-2x.jpg 2x
+               "
+               media="(max-width:767px)"
+  />
               <img
-                src="./image/team/img-4.jpg"
+                src=" ./image/team/img-4-mob.jpg"
                 alt="Фото веб-дизайнера"
-                width="270"
-                height="260"
+                width="450"
+                height="460"
               />
+               </picture>
               <div class="team-list__content">
-                <h3 class="team-list__title">Михаил Ермаков</h3>
+                <h3 class="team-list__title">Михайло Єрмаков</h3>
                 <p class="team-list__job">UI Designer</p>
                 <ul class="social-list">
                   <li class="social-list__item">
@@ -461,7 +539,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 class="footer-items white"
-                >г. Киев, пр-т Леси Украинки, 26</a
+                >м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
             <li class="list-information-items">
@@ -549,7 +627,7 @@
               </svg>
             </label>
              <label class="register-label">
-                <span class="register-label-name">Тулуфон</span>
+                <span class="register-label-name">Телефон</span>
               <input class="register-input" type="tel" name="user-phone" autofocus required/>
               <svg class="register-icon" width="18px" height="18px">
                 <use href="./image/symbol-defs (3).svg#icon-phone"></use>
@@ -602,12 +680,12 @@
 
           <ul class="site-nav-mob">
             <li class="item-mob">
-              <a href="./index.html" class="link-mob">Студия</a>
+              <a href="./index.html" class="link-mob">Студія</a>
             </li>
             <li class="item-mob">
-              <a href="./portfolio.html" class="link-mob">Портфолио</a>
+              <a href="./portfolio.html" class="link-mob">Портфоліо</a>
             </li>
-            <li class="item-mob"><a href="" class="link-mob">Контакты</a></li>
+            <li class="item-mob"><a href="" class="link-mob">Контакти</a></li>
           </ul>
          <ul class="contacts-mob">
 
