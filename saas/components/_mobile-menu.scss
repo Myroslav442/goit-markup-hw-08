@@ -88,6 +88,7 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
+  margin-bottom: 64px;
 }
 
 .contacts-mob-tel {
@@ -106,7 +107,6 @@
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--primery-text-color);
-  margin-bottom: 64px;
 }
 
 .mob-soc-list {
